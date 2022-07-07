@@ -11,7 +11,7 @@ public class UserVo {
 	public UserVo() {
 		
 	}
-	
+
 	public UserVo(int userNo, String id, String userName, String password, String joinDate) {
 		this.userNo = userNo;
 		this.id = id;
