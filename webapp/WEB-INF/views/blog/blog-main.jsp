@@ -16,6 +16,7 @@
 
 		<!-- 개인블로그 해더 -->
 		<c:import url="/WEB-INF/views/includes/blog-header.jsp"></c:import>
+		<!-- 개인블로그 해더 -->
 		
 		<div id="content" class="clearfix">
 			<div id="profilecate_area">
@@ -116,8 +117,10 @@
 		</div>	
 		<!-- //content -->
 		<div class=></div>
-		<c:import url="/WEB-INF/views/includes/blog-footer.jsp"></c:import>
 		
+		<!-- 블로그 footer -->
+		<c:import url="/WEB-INF/views/includes/blog-footer.jsp"></c:import>
+		<!-- 블로그 footer -->
 	
 	
 	</div>

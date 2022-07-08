@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.javaex.service.UserService;
+import com.javaex.vo.BlogVo;
 import com.javaex.vo.UserVo;
 
 @Controller

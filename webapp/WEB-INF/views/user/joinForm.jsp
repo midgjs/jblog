@@ -69,7 +69,14 @@
 
 </body>
 <script type="text/javascript">
-$(".txtId").
+$("#btnIdCheck").on("click", function(){
+	console.log("중복체크버튼클릭");
+	
+	
+	
+	
+	
+})
 	
 	
 	
