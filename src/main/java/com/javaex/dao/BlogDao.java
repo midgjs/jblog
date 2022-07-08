@@ -15,8 +15,8 @@ public class BlogDao {
 	public BlogVo visitblog(BlogVo blogVo) {
 		System.out.println("blogDao > visitblog");
 		
-		BlogVo blogid = sqlSession.selectOne("blog.visitblog", blogVo);
+		BlogVo blogId = sqlSession.selectOne("blog.visitblog", blogVo);
 		
-		return blogid;
+		return blogId;
 	}
 }

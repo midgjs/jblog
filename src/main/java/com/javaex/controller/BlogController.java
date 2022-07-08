@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.javaex.service.BlogService;
+import com.javaex.vo.BlogVo;
 
 @Controller
 public class BlogController {
@@ -17,6 +18,8 @@ public class BlogController {
 	@RequestMapping(value="/{id}", method= {RequestMethod.GET, RequestMethod.POST})
 	public String blogmain(@PathVariable("id") String id) {
 		System.out.println("BlogCon > blogmain");
+		
+		BlogVo blogId = blogService.blogmain();
 		
 		return "blog/blog-main";
 	}
