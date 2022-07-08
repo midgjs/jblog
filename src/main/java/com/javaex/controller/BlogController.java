@@ -16,7 +16,7 @@ public class BlogController {
 	BlogService blogService;
 	
 	@RequestMapping(value="/{id}", method= {RequestMethod.GET, RequestMethod.POST})
-	public String blogmain(@PathVariable("id") String id) {
+	public String blogmain(@PathVariable("id") String blogId) {
 		System.out.println("BlogCon > blogmain");
 		
 		BlogVo blogId = blogService.blogmain();

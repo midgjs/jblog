@@ -69,16 +69,27 @@
 
 </body>
 <script type="text/javascript">
-$("#btnIdCheck").on("click", function(){
-	console.log("중복체크버튼클릭");
+$("#btnJoin").on("click", function(){
+	console.log("회원가입체크항목");
 	
+var id = ${"#txtId"}.val();
+var idCheck = ${"#btnIdCheck"}.val();
+var password = ${"#txtPassword"}.val();
+var userName = ${"#txtUserName"}.val();
+var agree = ${"#chkAgree"}.val();
 	
-	
-	
-	
+if(id == "" || id == null) {
+	alert("아이디를 입력해주세요");
+	return false;
+}
+if(password == "" || password == null) {
+	alert("패스워드를 입력해주세요");
+	return false;
+}
+if(name == "" || name == null) {
+	alert("이름을 입력해주세요");
+	return false;
 })
-	
-	
 	
 	
 	
