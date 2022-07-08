@@ -12,7 +12,13 @@
 	
 	<select id = "visitBlog" parameterType="com.javaex.vo.BlogVo" resultType="com.javaex.vo.BlogVo">
 		<![CDATA[
-			select  u.
+			select  u.userNo,
+					b.id,
+					u.userName,
+					b.blogTitle,
+					b.logoFile
+			from users u, blog b
+			where u.id = b.id
 		]]>	
 	</select>
 
