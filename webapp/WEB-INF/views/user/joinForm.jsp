@@ -89,10 +89,14 @@ if(password == "" || password == null) {
 if(name == "" || name == null) {
 	alert("이름을 입력해주세요");
 	return false;
-})
+}	
+if(agree == false) {
+	alert("약관동의에 체크해주세요");	
+	return false;
+}
+});
 	
-	
-	
+//중복체크 미작성	
 	
 	
 	
